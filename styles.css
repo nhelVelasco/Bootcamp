@@ -1,0 +1,98 @@
+body {
+    margin:0px;
+    background-image: url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg");
+}
+
+nav {
+    background-color: rgb(70, 130, 180);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#navbar>tr {
+    background-color: rgb(70, 130, 180);
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+span:hover {
+    background-color: rgb(0, 0, 139);
+}
+
+
+
+#minis {
+    color:rgb(70, 130, 180);
+}
+
+
+#img2 {
+    width:350px;
+    margin-right: 20px;
+}
+
+#parD1{
+    color:rgb(70, 130, 180)
+}
+
+#save {
+    color: rgb(255, 0, 216)
+}
+
+
+.img3 {
+    width:120px
+}
+
+
+
+footer {
+    font-size: 75%;
+}
+
+.parC1 {
+    color:rgb(70, 130, 180);
+}
+
+
+footer, .links{
+    color:rgb(160, 160, 160);  
+
+    height: 200px;
+    margin-top: -200px; 
+}
+
+#save:link {
+    color: blue;
+}
+
+#save:visited {
+    color: orange;
+}
+
+#save:hover {
+    color: magenta;
+}
+
+#save:active {
+    color: lime;
+}
+
+table, th, td {
+    margin: 0 auto;
+    border: 1px dotted black;
+    border-collapse: collapse;
+  }
+
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  tr:hover {background-color: orange;}

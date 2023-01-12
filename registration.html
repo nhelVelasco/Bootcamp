@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" />
+    <br />
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <form>
+        <!--Basic Info-->
+        <h2>Basic Information</h2>
+        <label for="firstname">First Name: </label>
+        <input type="text" placeholder="Your text here" id="firstName" /><br />
+        <label for="lastname">Last Name: </label>
+        <input type="text" placeholder="Your text here" id="lastName" /><br />
+        <label for="birthPlace">Place of Birth: </label>
+        <input type="text" placeholder="Your text here" id="birthPlace" /><br />
+        <label for="bday">Birthday: </label>
+        <input type="date" id="bday" /><br />
+        <label for="status">Civil Status: </label>
+        <input type="radio" name="status" value="Single">Single
+        <input type="radio" name="status" value="Married">Married
+        <input type="radio" name="status" value="Windowed">Windowed
+        <input type="radio" name="status" value="Separated">Separated<br />
+        <label for="gender">Gender: </label>
+        <select name="gender">
+            <option value="select" selected disabled>Select One</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br />
+        <label for="mName">Mother's Maiden Name: </label>
+        <input type="text" placeholder="Your Text Here" id="mName" /><br />
+        <label for="fName">Father's Name: </label>
+        <input type="text" placeholder="Your Text Here" id="fName" /><br /><br />
+        <!--Contact Info-->
+        <h2>Contact Information</h2>
+        <label for="eAdd">Email Address: </label>
+        <input type="email" id="eAdd" placeholder="Your text here" /><br />
+        <label for="cNum">Contact Number (Mobile): </label>
+        <input type="number" id="cNum" placeholder="Your Text here" /><br />
+        <label for="tNum">Contact Number (Telephone): </label>
+        <input type="tNum" id="tNum" placeholder="Your text here" /><br /><br />
+        <!--Address-->
+        <h2>Address</h2>
+        <label for="sNum">Street Number: </label>
+        <input type="number" id="sNum" /><br />
+        <label for="sName">Street Name: </label>
+        <input type="text" id="sName" /><br />
+        <label for="brgy">Barangay: </label>
+        <input type="text" id="brgy" placeholder="Your text here"/><br />
+        <label for="city">City/Municipality: </label>
+        <input type="text" id="city" /><br />
+        <label for="prov">Province: </label>
+        <input type="text" id="prov" /><br />
+        <label for="add">Full Adress: </label><br />
+        <textarea id="add" name="add" rows="4" cols="50" placeholder="Your text here"></textarea><br /><br />
+        <!--Gov Info-->
+        <h2>Government Information</h2>
+        <label for="sss">SSS Number: </label>
+        <input type="text" placeholder="Your text here" id="sss" /><br />
+        <label for="pIbig">PAG-IBIG Number: </label>
+        <input type="text" placeholder="Your text here" id="pIbig" /><br />
+        <label for="pHeal">PhilHealth Number: </label>
+        <input type="text" placeholder="Your text here" id="pHeal" /><br />
+        <label for="pic">Upload 2x2 Picture: </label>
+        <input type="file" id="pic" /><br />
+        <label for="govID">Upload Your National ID: </label>
+        <input type="file" id="govID" /><br />
+        <!--Acct Info-->
+        <h2>Account Information</h2>
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" placeholder="Your Desired Username" /><br />
+        <label for="pWord">Password: </label>
+        <input type="password" id="pWord" name="pWord" placeholder="Must have 1 Capital Letter, 1 Number" /><br />
+        <label for="pWord">Confirm Password: </label>
+        <input type="password" id="pWord" name="pWord" placeholder="Retype your desired password" /><br />
+        <label for="prof">Upload Profile Image: </label>
+        <input type="file" id="prof" /><br /><br />
+        <!--Health Declaration-->
+        <label>Have you experienced any of the following in the last 30 day?</label><br />
+        <input type="checkbox" id="cough" name="cough" value="cough" />
+        <label for="cough">Coughing</label><br />
+        <input type="checkbox" id="fever" name="fever" value="fever" />
+        <label for="fever">Fever</label><br />
+        <input type="checkbox" id="hAche" name="hAche" value="hAche" />
+        <label for="hAche">Headache</label><br />
+        <input type="checkbox" id="cold" name="cold" value="cold" />
+        <label for="cold">Common Cold</label><br />
+        <input type="checkbox" id="bAche" name="bAche" value="bAche" />
+        <label for="bAche">Body Ache</label><br />
+        <input type="checkbox" id="sore" name="sore" value="sore" />
+        <label for="sore">Sore Throat</label><br />
+        <input type="checkbox" id="tired" name="tired" value="tired" />
+        <label for="tired">Tiredness</label><br />
+        <input type="checkbox" id="smell" name="smell" value="smell" />
+        <label for="smell">Loss of Smell</label><br /><br />
+        <!--Short Description-->
+        <h2>Give a short description about yourself</h2>
+        <textarea id="add" name="add" rows="4" cols="50" placeholder="Your text here"></textarea><br /><br />
+    </form>
+
+</body>
+</html>

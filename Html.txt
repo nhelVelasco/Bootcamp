@@ -1,0 +1,43 @@
+HTML
+tags
+headings and paragraphs
+<h1>-<h6> - heading tags
+<p>	- paragraph tags
+
+images
+<img src="file" alt="description" style="height: px; width: px;" />
+
+links
+<a href="link" target="_self/_blank">name</a>- anchor link
+<iframe>- display a web page within a web page. see embed
+<"tag" />autoclose if there's nothing to put in between tags
+
+List
+<ol>-ordered list
+<li>-content of list
+<ul>-unordered list
+<li>-content of list
+<dl>-description list, a list of terms, with a description of each term.
+<dt>-Defines a term in a description list
+<dd>-Describes the term in a description list
+
+Forms
+<form>- collect data from the site visitor
+<label>-name
+for=""--id=""
+<input type="" placeholder="" value="">
+<textarea placeholder="" style="height: px; width: px;">
+radio type + name
+<select name="dropdown">-<option value="">
+add attribute at option "selected disabled"
+file type name="" accept="image/* /"
+<button>name -button or type="button" value=""
+input type="date"
+type="select"
+type="email"
+type="number"
+
+
+
+empty tags
+<br> - break tags

@@ -1,0 +1,14 @@
+$themeColor1: rgb(229,229,79);
+$widthFood: 400px;
+
+h1 {
+    color: $themeColor1;
+}
+
+p {
+    color: $themeColor1;
+}
+
+.food {
+   width: $widthFood;
+}

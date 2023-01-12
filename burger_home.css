@@ -1,0 +1,21 @@
+#hlogo {
+    height: 50px;
+    width: 50px;
+}
+
+.menuitem {
+    height: 400px;
+    width: 100%;
+}
+
+.nav-item:hover {
+    background-color: blue;
+    color: white;
+}
+
+.fimg {
+        height: 50px;
+        width: 50px;
+        margin-top: 0%;
+        padding-top: 0%;
+}
